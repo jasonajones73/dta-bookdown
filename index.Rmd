@@ -1,26 +1,15 @@
 --- 
 title: "BrightHive Data Trust Agreement"
-subtitle: "Data Trust Legal Agreement"
 author:
-  name: BrightHive
   email: https://brighthive.io/
+  name: BrightHive
 date: "`r sprintf('Last updated: %s', format(Sys.time(), '%b %d, %Y at %I:%M %p'))`"
-site: bookdown::bookdown_site
+output: word_document
+description: This is a preliminary draft of a reproducible Data Trust Agreement (DTA).
 documentclass: book
-biblio-style: apalike
 link-citations: yes
-description: "This is a preliminary draft of a reproducible Data Trust Agreement (DTA)."
+biblio-style: apalike
 params:
-  trust_name:
-    input: text
-    label: 'Enter the name of your Data Trust:'
-    value: BrightHive
-    placeholder: enter name here
-  trustee:
-    input: text
-    label: 'Enter the name of your Technical Trustee:'
-    value: Technical Trustee
-    placeholder: enter technical trustee name
   eff_date:
     input: date
     label: 'Choose your effective date:'
@@ -28,8 +17,20 @@ params:
   members:
     input: text
     label: 'Please enter member names separated by semicolons:'
-    value: 'Member 1; Member 2; Member 3; Member 4'
-always_allow_html: true
+    value: Member 1; Member 2; Member 3; Member 4
+  trust_name:
+    input: text
+    label: 'Enter the name of your Data Trust:'
+    placeholder: enter name here
+    value: BrightHive
+  trustee:
+    input: text
+    label: 'Enter the name of your Technical Trustee:'
+    placeholder: enter technical trustee name
+    value: Technical Trustee
+site: bookdown::bookdown_site
+subtitle: Data Trust Legal Agreement
+always_allow_html: yes
 ---
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
