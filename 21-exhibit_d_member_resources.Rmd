@@ -1,0 +1,24 @@
+# Exhibit D {-}
+
+## Member-Contributed Data Resources {-}
+
+*[This section will be completed by Data Trust Members when they have an understanding of the data elements they will be contributing to the Data Trust]*
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+data.frame('Member-contributed Data Resource' = c("Resource 1", "Resource 2", "Resource 3"), 'Source of Data' = '', 'Security Classification' = '', 'Description of Data Resource' = '', check.names = FALSE) %>%
+   kable(format = "html", align = 'c') %>%
+   kable_styling(full_width = TRUE, position = "center") %>%
+   row_spec(row = 0, align = "center")
+```
+
+## Table Definitions {-}
+
+A. **"Member-contributed Data Resource"**: Data elements being provided by Members
+
+B. **"Description of Data Resource"**: Metadata associated with the Data Resource, such as defintion, format, etc.
+
+------
+
+An electronic registry of EXHIBIT D Member-contributed Data Resources at [insert Data Trust Member-contributed Data Resources Registry URL]
+
+------

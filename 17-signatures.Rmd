@@ -1,0 +1,12 @@
+# Signatures
+
+**IN WITNESS WHEREOF**, the Parties hereto have executed this Agreement in duplicate by proper persons thereunto duly authorized.
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+members %>%
+   mutate(`Signed By` = '', Date = '', Signatue = '') %>%
+   kable(format = "html", align = 'c') %>%
+   kable_styling(full_width = TRUE, position = "center") %>%
+   row_spec(row = 0, align = "center")
+```
+

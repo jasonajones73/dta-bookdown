@@ -1,0 +1,61 @@
+--- 
+title: "BrightHive Data Trust Agreement"
+subtitle: "Data Trust Legal Agreement"
+author:
+  name: BrightHive
+  email: https://brighthive.io/
+date: "`r sprintf('Last updated: %s', format(Sys.time(), '%b %d, %Y at %I:%M %p'))`"
+site: bookdown::bookdown_site
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+description: "This is a preliminary draft of a reproducible Data Trust Agreement (DTA)."
+params:
+  trust_name:
+    input: text
+    label: 'Enter the name of your Data Trust:'
+    value: BrightHive
+    placeholder: enter name here
+  trustee:
+    input: text
+    label: 'Enter the name of your Technical Trustee:'
+    value: Technical Trustee
+    placeholder: enter technical trustee name
+  eff_date:
+    input: date
+    label: 'Choose your effective date:'
+    value: !r Sys.Date()
+  members:
+    input: text
+    label: 'Please enter member names separated by semicolons:'
+    value: 'Member 1; Member 2; Member 3; Member 4'
+always_allow_html: true
+---
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(glue)
+library(kableExtra)
+members <- as.data.frame(str_split(params$members, ";")) %>%
+  rename(`Data Trust Members` = 1) %>%
+  mutate(`Data Trust Members` = as.character(`Data Trust Members`))
+```
+
+# Data Trust Agreement {-}
+
+------
+**vC0.01.16 2020**
+------
+
+## `r glue::glue('{params$trust_name} Data Trust')` {-}
+
+This Data Trust Agreement (the "Agreement") is entered into on **`r sprintf("%s", format(params$eff_date, "%B %d, %Y"))`** ("Effective Date") by and between the members as listed in the table below ("Members"), and Technical Trustee ("Trustee"), on behalf of the `r glue::glue('{params$trust_name} Data Trust')` ("Data Trust"). Members, Data Trust, Trustee Affiliate, and Trustee may each individually be referred to herein as a "Party" and collectively as the "Parties".
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+members %>%
+   kable(format = "html", align = 'c') %>%
+   kable_styling(full_width = TRUE, position = "center") %>%
+   row_spec(row = 0, align = "center")
+```
+

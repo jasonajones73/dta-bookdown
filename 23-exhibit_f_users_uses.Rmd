@@ -1,0 +1,21 @@
+# Exhibit F {-}
+
+## Approved Users, Uses, and Access Levels {-}
+
+**Application Developers, Researchers, Institutes, and Consortia**
+
+**[Data Trust Members should insert any approved users, uses, and access levels for their member-contributed data Resources. Trustee should do so for Trust-managed Data Resources.]**
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+data.frame(`User Name` = c("Name 1", "Name 2", "Name 3"), `Data Trust Resource` = '', `Access Level` = '', `Approved Use` = '', check.names = FALSE) %>%
+   kable(format = "html", align = 'c') %>%
+   kable_styling(full_width = TRUE, position = "center") %>%
+   row_spec(row = 0, align = "center")
+```
+
+</br>
+
+An electronic registry of EXHIBIT F is maintained and updated at [insert Data Trust User Registry URL]
+
+------
+

@@ -1,0 +1,24 @@
+# Data Trust Member Responsibilities
+
+A. Data Trust Members (“Members”) agree to clearly identify and label member-contributed data resources provided to Trustee for use by the Data Trust hereunder with the appropriate data security classification level. Members agree to update and maintain the classification of their member-contributed data resources as needed. 
+
+B. Members will collectively agree, via the Governance Board, on the data security classification levels to be used by the data trust. 
+
+C. Members agree to defend and hold harmless the Data Trust and Trustee as well as their respective trustees, officers, agents, and employees from any damages, liabilities, claims, and expenses (including reasonable attorney's fees) that result from the mislabeling of data provided to Trustee hereunder.
+
+D. Members shall be responsible for obtaining all necessary consents and otherwise complying with all applicable laws and other rules and regulations prior to sharing personal information with the Trustee for use by the Data Trust. Necessary consents may include, but not be limited to consent for personal information to be used for research purposes, if research is an approved use of member-contributed data resources and/or trust-managed data resources. 
+
+E. Members represent and warrant that they have secured all necessary approvals from any third parties, such as organizations or individuals from which the data originates (if applicable), and have the legal right to provide Trustee personal information in acting on behalf of the Data Trust for the purposes contemplated by this agreement. Further, Members assume all responsibility for damages and costs to the extent resulting from its breach of the representation and warranty.
+
+F. Members shall transmit, have access to, and have the ability to request removal at any time all data contributed to the Data Trust. Removal of Member-contributed Data Resources will occur within the timeframe of removal request agreed upon by the Governance Board .
+
+G. Members shall have the ability to change or revoke access and use of member-contributed  data resources at any time.Access may be revoked at the field, row, or element level and on a user-by-user basis. 
+
+H. Members may share additional data with the Trustee for use by the Data Trust at any time.
+
+I. Members will designate a Data Trust Governance Board (“Governance Board”) representative to participate in Data Trust Governance responsibilities, as written in Section 5 herein. Members may alternatively delegate its representation to another Data Trust Member’s Data Trust Governance Board representative.
+
+J. If Members classify data as public (or the equivalent) and public access of public data is listed as an Approved Use, Members acknowledge that once public data is contributed by any member, Trustee shall have the right to immediately make public data publicly available as approved and specified herein.
+
+K. Members acknowledge and agree that their member-contributed data resources may be combined with those of other Data Trust Member organizations. All data, including copies of data, provided by Members to the Data Trust will be stored, maintained, and monitored using the agreed upon secure Data Trust Technical Infrastructure. Members shall be able to access the complete audit log of all access and use of data stored on Data Trust Technical Infrastructure at any time.
+

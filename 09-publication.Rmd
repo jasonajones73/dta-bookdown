@@ -1,0 +1,11 @@
+# Publication of Research
+
+A. A Third Party Researcher may publish the results of research as stipulated in their individual data use agreement with the Trustee, provided such publication does not disclose Confidential Information, Member-contributed Data Resources or Trust-managed Data Resources classified as sensitive or personally identifiable information.
+
+B. Data that has been aggregated by the Third Party Researcher may be published in accordance with other Unrestricted Data as determined by the Governance Board. However, prior to any such publication, Member and all other Data Trust Members which contribute data used in the creation of aggregate data shall be able review the aggregated data to verify no Restricted Data or Highly Restricted data is revealed.
+
+C. A Third Party Researcher shall agree that, prior to submission of a manuscript describing any results for publication, they will share the manuscript with the Trustee and the Trustee shall forward to all Data Trust Members a copy of the manuscript to be submitted.
+
+D. Members shall have thirty (30) days to determine whether a patent application or other intellectual property protection should be sought prior to the Third Party Researcher publishing their results in order to protect the Member’s proprietary interests in any product or invention developed in connection with the Third Party Researcher’s approved research proposal.
+
+E. The Trustee agrees to withhold approving publication for an additional sixty (60) business days, if required, to allow Members to obtain patent protection. Upon the expiration of the sixty (60) business days, the Trustee shall allow the Third Party Researcher to submit the manuscript and publish results in any manner consistent with academic standards.

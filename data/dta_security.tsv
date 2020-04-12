@@ -1,0 +1,5 @@
+Classification Level	Description
+Public  (Lowest risk)	Applies to information assets that will not result in injury to individuals, governments or private sector institutions; and financial loss will be insignificant.
+Protected A (Minimal risk)	Applies to information assets that, if compromised, could cause injury to an individual, organization or government.
+Protected B (Moderate risk)	Applies to information assets that, if compromised, could cause serious injury to an individual organization or government.
+Protected C (Significant risk)	Applies to information assets that, if compromised, could cause extremely grave injury to an individual, organization or government.
